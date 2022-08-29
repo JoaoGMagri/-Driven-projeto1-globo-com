@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Encode Sans', sans-serif;
+    width: 1600px;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+/* Logo da página inicio */
+.name-page {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+.name-page img {
+    width: 171px;
+    height: 36px;
+    margin-bottom: 22px;
+    margin-top: 22px;
+}
+/* Logo da página fim */
+
+/* Menu da pagina inicio */
+.submenus {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    border-color: #F5F6F7;
+    border-width: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+
+    margin-bottom: 34px;
+}
+
+.submenus div:hover {
+    cursor: pointer;
+}
+
+.g1 {
+    color: red;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 140px;
+}
+
+.o-globo {
+    color: #1E4B9B;
+    width: 89px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.valor {
+    color: #006766;
+    width: 70px;
+    height: 40px; 
+    margin-top: 15px;
+}
+
+.ge {
+    color: #07AA47;
+    width: 45px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.cartola {
+    color: #E3662B;
+    width: 86px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.globoplay {
+    color: #FB0735;
+    width: 113px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.dropz {
+    color: #FF75BB;
+    width: 75px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.gshow {
+    color: #EC7D00;
+    width: 84px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.quem {
+    color: #323333;
+    width: 74px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.receitas {
+    color: #A81D83;
+    width: 93px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 140px;
+}
+/* Menu da pagina fim */
+
+/* Corpo da página inicio */
+.corpo-da-pagina {
+    width: 1600px;
+    display: flex;
+    justify-content:center
+}
+
+/* Coluna 1 inicio */
+.coluna1 {
+    border-right: thick solid #EBEDEF;
+    height:723px;
+    border-width: 1px;
+    left: 817px;
+    top: 162px;
+}
+
+.noticia-destaque {
+    width: 624px;
+    height: 201px;
+    font-size: 52px;
+    font-weight: bold;
+    color: #C4160C
+}
+
+.noticia-secundaria {
+    font-weight: normal;
+    width: 622px;
+    height: 25px;
+    font-size: 18px;
+    color: #303134
+}
+
+.manchete-coluna1 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 36px;
+
+}
+
+.manchete-coluna1 img {
+    width: 193px;
+    height: 110px;
+    margin-top: 51px;
+    border-radius: 12px;
+}
+
+.manchete-coluna1-secundaria {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 62px;
+    margin-bottom: 87px;
+    margin-right: 36px;
+}
+
+.tamanho-da-noticias {
+    width: 193px;
+}
+
+.topico-coluna1 {
+    color: #C4170C;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 11px;
+}
+
+.nome-da-noticia {
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+.resumo-da-noticia {
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 4.5px;
+}
+/* Coluna 1 fim */
+
+/* Coluna 2 inicio */
+.coluna2 {
+    border-right: thick solid #EBEDEF;
+    height:723px;
+    border-width: 1px;
+    left: 817px;
+    top: 162px;
+
+    margin-bottom: 87px;
+}
+
+.coluna2 img {
+    width: 240px;
+    height: 128px;
+    margin-bottom: 11px;
+    border-radius: 12px;
+}
+
+.tamanho-da-noticia2 {
+    width: 240px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+}
+
+.topico-coluna2 {
+    color: #16AE54;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.nome-da-noticia2 {
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+/* Coluna 2 fim */
+
+/* Coluna 3 inicio */
+.topico-coluna3 {
+    color: #EC8006;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.nome-da-noticia3 {
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.coluna3 {
+    height:723px;
+    left: 817px;
+    top: 162px;
+    margin-bottom: 87px;
+}
+
+.coluna3 img {
+    width: 240px;
+    height: 128px;
+    margin-bottom: 11px;
+    border-radius: 12px;
+}
+/* Coluna 3 fim */
+
+
+/* Corpo da página fim */
